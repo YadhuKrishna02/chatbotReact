@@ -4,9 +4,10 @@ class MessageParser {
     }
 
     parse(message) {
-        const lowercase = message.toLowerCase();
-        if (lowercase.length < 1) {
-            this.actionProvider.warningMessage()
+        const trimmedMessage = message.trim();
+
+        if (trimmedMessage.length === 0) {
+            this.actionProvider.warningMessage();
         }
 
 

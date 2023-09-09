@@ -55,7 +55,7 @@ class ActionProvider {
     warningMessage = () => {
         const message = this.createChatBotMessage("I did'nt understand you");
         this.addMessageToState(message)
-        return
+        // return
     }
 
     pickSlot = () => {

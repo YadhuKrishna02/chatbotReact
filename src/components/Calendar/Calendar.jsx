@@ -69,6 +69,12 @@ const CustomCalendar = (props) => {
     ));
   };
 
+  const isDisabledDate = ({ date, view }) => {
+    // Disable dates in the past and allow future dates
+    const today = new Date();
+    return date < today;
+  };
+
   return (
     <div className="calendar-container">
       <Paper elevation={0} className="date-picker" style={{ border: 'none' }}>
@@ -76,6 +82,7 @@ const CustomCalendar = (props) => {
           onChange={handleDateSelection}
           value={selectedDate}
           calendarType="US"
+          tileDisabled={isDisabledDate}
         />
       </Paper>
       <div className="time-section">
