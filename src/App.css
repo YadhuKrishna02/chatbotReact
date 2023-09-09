@@ -6,25 +6,22 @@
   background-color: #282c34;
   min-height: 100vh;
 }
-/* Button Styles */
+
 .got-it-button {
-  background-color: rgb(143, 57, 143); /* Green background color */
-  color: white; /* White text color */
-  border: none; /* Remove button border */
-  padding: 10px 20px; /* Padding around the text */
-  text-align: center; /* Center text horizontally */
-  text-decoration: none; /* Remove underlines from links */
-  display: inline-block; /* Make it an inline-block element */
-  font-size: 16px; /* Font size */
-  margin: 10px 0; /* Add some margin space */
-  cursor: pointer; /* Add a pointer cursor on hover */
-  border-radius: 4px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth background color transition */
+  background-color: rgb(143, 57, 143);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-/* Button Hover Styles */
 .got-it-button:hover {
   background-color: purple;
-
-  /* Darker green color on hover */
 }
