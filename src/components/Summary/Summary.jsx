@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux'; // Import useSelector
-import './Summary.css';
+import { useSelector } from 'react-redux';
 
 const Summary = () => {
-  // Use useSelector to access name and age from the Redux store
   const name = useSelector((state) => state.nameInput.selectedName);
   const age = useSelector((state) => state.age.selectedAge);
 

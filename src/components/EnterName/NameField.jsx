@@ -11,14 +11,14 @@ const NameInput = (props) => {
   const handleNameChange = (event) => {
     const newName = event.target.value;
     setName(newName);
-    dispatch(setSelectedName(newName)); // Dispatch the setName action
+    dispatch(setSelectedName(newName));
   };
 
   const handleKeyPress = (event) => {
     if (event.key === 'Enter' && name.trim() !== '') {
       props.actionProvider.handleNameField(name);
       setName('');
-      setIsVisible(false); // Hide the input field
+      setIsVisible(false);
     }
   };
 

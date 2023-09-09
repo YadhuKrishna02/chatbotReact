@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import React Router
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // 
 import Welcome from './components/Welcome/Welcome';
 import Summary from './components/Summary/Summary';
-import Chatbot from 'react-chatbot-kit'; // Import Chatbot component
+import Chatbot from 'react-chatbot-kit'; // 
 import 'react-chatbot-kit/build/main.css';
 import config from './chatbot/config';
 import ActionProvider from './chatbot/ActionProvider';
@@ -15,7 +15,6 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Welcome />} />
-          {/* Route for Page2 (Chatbot) */}
           <Route path="/chatbot" element={<Chatbot config={config} messageParser={MessageParser} actionProvider={ActionProvider} />} />
           <Route path="/summary" element={<Summary />} />
         </Routes>

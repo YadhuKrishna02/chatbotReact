@@ -1,4 +1,3 @@
-/* Welcome.css */
 .page-container {
   display: flex;
   flex-direction: column;
@@ -56,7 +55,6 @@
   background-color: #0056b3;
 }
 
-/* Media query for responsiveness - apply mobile styles for all screen sizes */
 @media (max-width: 9999px) {
   .title {
     font-size: 1.8em;

@@ -31,7 +31,6 @@ const CustomCalendar = (props) => {
         weekday: 'short',
       })} ${selectedTime}`;
 
-      // Dispatch the action to store in Redux
       dispatch(setSelectedDateTime(formattedDateTime));
       props.actionProvider.handleTimeSlot(formattedDateTime);
     }
@@ -70,7 +69,6 @@ const CustomCalendar = (props) => {
   };
 
   const isDisabledDate = ({ date, view }) => {
-    // Disable dates in the past and allow future dates
     const today = new Date();
     return date < today;
   };

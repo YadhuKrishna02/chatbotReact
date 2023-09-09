@@ -1,4 +1,3 @@
-// redux/dateAndTimeSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const dateAndTimeSlice = createSlice({

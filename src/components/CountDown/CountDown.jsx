@@ -7,18 +7,15 @@ const Countdown = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Set up an interval to decrement the count every second
     const countdownInterval = setInterval(() => {
       if (count > 0) {
         setCount(count - 1);
       } else {
-        // When countdown reaches 0, navigate to another page
         clearInterval(countdownInterval);
-        navigate('/summary'); // Replace '/other-page' with your desired route
+        navigate('/summary');
       }
     }, 1000);
 
-    // Clear the interval when the component unmounts
     return () => clearInterval(countdownInterval);
   }, [count, navigate]);
 

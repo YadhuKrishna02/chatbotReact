@@ -63,7 +63,6 @@ class ActionProvider {
             widget: "calendar"
         });
         this.addMessageToState(message)
-        // this.askAge()
     }
 
     askName = () => {
