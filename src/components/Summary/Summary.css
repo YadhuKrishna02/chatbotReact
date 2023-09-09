@@ -30,15 +30,16 @@
 .exit-button {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #007bff; 
-  color: #fff; 
+  background-color: #007bff;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease;
 
   margin: 0 auto;
 }
 
 .exit-button:hover {
-  background-color: #0056b3; 
+  background-color: #0056b3;
+}
