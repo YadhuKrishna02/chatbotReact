@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+/* Button Styles */
+.got-it-button {
+  background-color: rgb(143, 57, 143); /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Padding around the text */
+  text-align: center; /* Center text horizontally */
+  text-decoration: none; /* Remove underlines from links */
+  display: inline-block; /* Make it an inline-block element */
+  font-size: 16px; /* Font size */
+  margin: 10px 0; /* Add some margin space */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Button Hover Styles */
+.got-it-button:hover {
+  background-color: purple;
+
+  /* Darker green color on hover */
+}

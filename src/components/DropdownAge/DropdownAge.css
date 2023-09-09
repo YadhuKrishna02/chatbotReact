@@ -1,0 +1,20 @@
+/* AgeDropdown.css */
+
+.dropdown {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #f8f8f8;
+  outline: none;
+  cursor: pointer;
+}
+
+.dropdown:hover {
+  background-color: #e0e0e0;
+}
+
+.dropdown:focus {
+  border-color: #007bff;
+}

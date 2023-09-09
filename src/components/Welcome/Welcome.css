@@ -1,0 +1,70 @@
+/* App.css - You can create a separate CSS file or use inline styles as needed */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 60vh;
+  width: 18vw;
+  background-color: #f0f0f0; /* Background color */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* Text color */
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.enroll-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  margin: 0 auto;
+}
+
+.page-header {
+  text-align: center;
+  background-color: #007bff;
+  border-bottom: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 20px;
+  margin-top: 0;
+}
+
+.header-title {
+  color: white;
+  margin: 0;
+}
+
+.enroll-button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Media query for responsiveness - adjust styles for smaller screens */
+@media (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .enroll-button {
+    font-size: 16px;
+  }
+}

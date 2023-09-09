@@ -1,0 +1,29 @@
+/* Countdown.css */
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.countdown-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.5s;
+}
+
+.countdown-number.final {
+  animation: pulse 1s infinite alternate;
+  color: #ff0000; /* Change color for the final countdown */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
