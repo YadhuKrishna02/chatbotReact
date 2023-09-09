@@ -1,46 +1,44 @@
-/* App.css - Add or modify these styles for Page3 */
 .page-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Full viewport height */
-  background-color: #f0f0f0; /* Background color */
+  height: 100vh;
+  background-color: #f0f0f0;
 }
 
 .title {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #333; /* Text color */
+  color: #333;
 }
 
 .confirmation-message {
   font-size: 18px;
   margin-bottom: 20px;
   text-align: center;
-  color: #666; /* Text color */
+  color: #666;
 }
 
 .user-data {
   font-weight: bold;
-  color: #007bff; /* Color for user data (e.g., name and age) */
+  color: #007bff;
 }
 
 .exit-button {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #007bff; /* Button background color */
-  color: #fff; /* Button text color */
+  background-color: #007bff;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  transition: background-color 0.3s ease;
 
-  /* Center the button horizontally */
   margin: 0 auto;
 }
 
 .exit-button:hover {
-  background-color: #0056b3; /* Button background color on hover */
+  background-color: #0056b3;
 }
